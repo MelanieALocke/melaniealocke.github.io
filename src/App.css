@@ -28,43 +28,60 @@
 
 h2 {
   font-size: 3rem;
-  font-family: Georgia, Times, serif;
 }
 
 main {
-  background-image: linear-gradient(#FAD234, #ffecbf);
+  background-image: linear-gradient(#FAC532, #ffecbf);
+  font-family: Georgia, Times, serif;
   display: inline-block;
 }
 
 .Container {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
+  align-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 40px 30px;
+  padding: 15% 3%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .Image {
-  max-width: 450px;
   border-radius: 20px;
+  max-width: 100%;
 }
 
-#about-content {
+#welcome-message {
+  font-size: 6rem;
+}
+
+.Blue-underline-link {
+  text-decoration: none;
+  color: #506AD4;
+}
+
+.Blue-underline-link:hover {
+  padding-bottom: 2px;
+  text-decoration: underline wavy #506AD4;
+  color: #506AD4;
+}
+
+#about {
   padding: 20px;
 }
 
-#welcome-content {
-  text-align: center;
-  font-size: 6rem;
-  width: 80%;
+#about-words {
+  background-color: #FFFCF8;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .Card {
-  border: .75px solid black;
   border-radius: 15px;
   padding: 15px;
   margin: 10px;
-  background-color: white;
+  background-color: #FFFCF8;
   max-width: 50%;
 }
 

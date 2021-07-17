@@ -6,13 +6,14 @@ import Col from 'react-bootstrap/Col';
 
 export default function Projects() {
     return (
-        <Container fluid>
-            <section id="projects" className="Container">
+        <Container fluid className="Container">
+            <section id="projects">
                 <div id="projects-content">
-                    <Row className="justify-content-center">              
+                    <Row className="justify-content-mid-center">              
                         <div>
                             <div>
                                 <h2>Projects</h2>
+                                <p>I wear a lot of hats. You can see examples of all of my work below, or use the buttons to find content by category.</p>
                             </div>
                         </div>
                     </Row>

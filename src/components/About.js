@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 
 export default function About() {
     return (
-        <Container fluid>
-            <section id="about" className="Container">
+        <Container fluid className="Container" id="about-container">
+            <section id="about">
                 <div id="about-content">
                     <Row className="justify-content-md-center">
                         <Col md="5">
@@ -20,13 +20,19 @@ export default function About() {
                             </div>
                         </Col>
                         <Col md="5">
-                            <div>
-                                <div style={{ textAlign: "center", margin: 20 }}>
-                                    <h2>She's a writer, reader, and creative thinker.</h2>
+                            <div id="about-words">
+                                <div>
+                                    <h2>
+                                        She's a writer, editor, and creative thinker. 
+                                    </h2>
                                 </div>
                                 <div style={{ margin: 20 }}>
                                     <p>
-                                        Caramels ice cream carrot cake topping. Macaroon sesame snaps candy canes danish lollipop powder sweet roll powder. Gingerbread jelly-o jelly beans. Macaroon chocolate bar pastry halvah sweet roll croissant tiramisu. Gummi bears carrot cake pudding croissant bear claw lemon drops bear claw toffee. Sweet pastry danish dessert gummi bears caramels sugar plum ice cream candy canes.
+                                        <span style={{ fontSize: "25px", paddingRight: "5px" }}>&#128072;</span>
+                                        That's me. I'm Melanie Locke — the brain behind this website and all the projects listed here. 
+                                        I work with words, ideas, and people to bring creative and promotional content to life. 
+                                        As the lead content strategist at a digital marketing agency, a freelance writer and editor, and a persistent student of life, I've written words across industries and modalities. 
+                                        Passionate about technology and education.
                                     </p>
                                 </div>
                             </div>
