@@ -13,17 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +24,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: Georgia, Times, serif;
+}
+
+main {
+  background-image: linear-gradient(#FAD234, #ffecbf);
+  display: inline-block;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 40px 30px;
+}
+
+.Image {
+  max-width: 450px;
+  border-radius: 20px;
+}
+
+#about-content {
+  padding: 20px;
+}
+
+#welcome-content {
+  text-align: center;
+  font-size: 6rem;
+  width: 80%;
+}
+
+.Card {
+  border: .75px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+  max-width: 50%;
+}
+
+.Card-content {
+  padding: 25px;
 }
