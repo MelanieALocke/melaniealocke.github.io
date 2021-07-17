@@ -31,7 +31,7 @@ export default function About() {
                                         <span style={{ fontSize: "25px", paddingRight: "5px" }}>&#128072;</span>
                                         That's me. I'm Melanie Locke — the brain behind this website and all the projects listed here. 
                                         I work with words, ideas, and people to bring creative and promotional content to life. 
-                                        As the lead content strategist at a digital marketing agency, a freelance writer and editor, and a persistent student of life, I've written words across industries and modalities. 
+                                        I've written words across industries and modalities. 
                                         Passionate about technology and education.
                                     </p>
                                 </div>

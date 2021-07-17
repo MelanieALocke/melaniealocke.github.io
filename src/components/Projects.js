@@ -2,7 +2,6 @@ import React from "react";
 import { projects } from "../data";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 export default function Projects() {
     return (
@@ -17,12 +16,13 @@ export default function Projects() {
                             </div>
                         </div>
                     </Row>
-                    <Row className="flex-wrap-wrap justify-content-center">
+                    <Row className="justify-content-center" id="projects-cards">
                             {projects.map((project) => (
                                 <div className="Card">
                                     <div className="Card-content">
                                         <h3>{project.name}</h3>
                                         <p>{project.description}</p>
+                                        <a href={project.link} target="_blank" rel="noreferrer">Check it out!</a>
                                     </div>
                                 </div>
                             ))}

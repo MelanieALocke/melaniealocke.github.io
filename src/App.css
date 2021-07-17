@@ -38,10 +38,7 @@ main {
 
 .Container {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
-  align-content: center;
-  align-items: center;
   padding: 15% 3%;
   box-sizing: border-box;
   text-align: center;
@@ -63,7 +60,7 @@ main {
 
 .Blue-underline-link:hover {
   padding-bottom: 2px;
-  text-decoration: underline wavy #506AD4;
+  text-decoration: underline wavy red;
   color: #506AD4;
 }
 
@@ -75,6 +72,13 @@ main {
   background-color: #FFFCF8;
   border-radius: 20px;
   padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#projects-cards {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
 }
 
 .Card {
@@ -82,7 +86,8 @@ main {
   padding: 15px;
   margin: 10px;
   background-color: #FFFCF8;
-  max-width: 50%;
+  width: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .Card-content {
