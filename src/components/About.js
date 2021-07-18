@@ -29,10 +29,8 @@ export default function About() {
                                 <div style={{ margin: 20 }}>
                                     <p>
                                         <span style={{ fontSize: "25px", paddingRight: "5px" }}>&#128072;</span>
-                                        That's me. I'm Melanie Locke — the brain behind this website and all the projects listed here. 
+                                        That's me. I'm Melanie Locke — the brain behind this website and all the <a href="/#projects">projects listed here</a>. 
                                         I work with words, ideas, and people to bring creative and promotional content to life. 
-                                        I've written words across industries and modalities. 
-                                        Passionate about technology and education.
                                     </p>
                                 </div>
                             </div>

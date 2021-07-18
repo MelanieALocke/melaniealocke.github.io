@@ -30,6 +30,22 @@ h2 {
   font-size: 3rem;
 }
 
+h6 {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #506AD4;
+}
+
+a:hover {
+  padding-bottom: 2px;
+  text-decoration: underline wavy #A3CDD9;
+  color: #506AD4;
+}
+
 main {
   background-image: linear-gradient(#FAC532, #ffecbf);
   font-family: Georgia, Times, serif;
@@ -39,7 +55,7 @@ main {
 .Container {
   display: flex;
   justify-content: center;
-  padding: 15% 3%;
+  padding: 14% 3%;
   box-sizing: border-box;
   text-align: center;
 }
@@ -51,17 +67,6 @@ main {
 
 #welcome-message {
   font-size: 6rem;
-}
-
-.Blue-underline-link {
-  text-decoration: none;
-  color: #506AD4;
-}
-
-.Blue-underline-link:hover {
-  padding-bottom: 2px;
-  text-decoration: underline wavy red;
-  color: #506AD4;
 }
 
 #about {
@@ -92,4 +97,11 @@ main {
 
 .Card-content {
   padding: 25px;
+  border: .5px solid black;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.Project-description {
+  padding-top: 4px;
 }
