@@ -47,7 +47,7 @@ a:hover {
 }
 
 main {
-  background-image: linear-gradient(#FAC532, #ffecbf);
+  background-image: linear-gradient(#FAC232, #ffecbf);
   font-family: Georgia, Times, serif;
   display: inline-block;
 }
@@ -78,6 +78,12 @@ main {
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#projects-divider {
+  border: none;
+  height: 6px;
+  color: #506AD4;
 }
 
 #projects-cards {
