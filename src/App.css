@@ -30,6 +30,22 @@ h2 {
   font-size: 3rem;
 }
 
+h6 {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #506AD4;
+}
+
+a:hover {
+  padding-bottom: 2px;
+  text-decoration: underline wavy #A3CDD9;
+  color: #506AD4;
+}
+
 main {
   background-image: linear-gradient(#FAC532, #ffecbf);
   font-family: Georgia, Times, serif;
@@ -38,11 +54,8 @@ main {
 
 .Container {
   display: flex;
-  flex-flow: row wrap;
   justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 15% 3%;
+  padding: 14% 3%;
   box-sizing: border-box;
   text-align: center;
 }
@@ -56,17 +69,6 @@ main {
   font-size: 6rem;
 }
 
-.Blue-underline-link {
-  text-decoration: none;
-  color: #506AD4;
-}
-
-.Blue-underline-link:hover {
-  padding-bottom: 2px;
-  text-decoration: underline wavy #506AD4;
-  color: #506AD4;
-}
-
 #about {
   padding: 20px;
 }
@@ -75,6 +77,13 @@ main {
   background-color: #FFFCF8;
   border-radius: 20px;
   padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#projects-cards {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
 }
 
 .Card {
@@ -82,9 +91,17 @@ main {
   padding: 15px;
   margin: 10px;
   background-color: #FFFCF8;
-  max-width: 50%;
+  width: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .Card-content {
   padding: 25px;
+  border: .5px solid black;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.Project-description {
+  padding-top: 4px;
 }
