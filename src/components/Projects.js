@@ -12,7 +12,6 @@ export default function Projects() {
                         <div>
                             <div>
                                 <h2>Projects</h2>
-                                <hr id="projects-divider" />
                                 <p>I wear a lot of hats. You can see examples of my work below.</p>
                             </div>
                         </div>

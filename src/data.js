@@ -63,5 +63,19 @@ export const projects = [
         type: "Print Ad-Editorial",
         description: "An editorial advertisement promoting rental bicycles in Denver, Colorado.",
         link: "https://files.journoportfolio.com/users/25459/uploads/44b038b5-c268-4f9a-a7e5-2e53a920a0a4.pdf",
-    }
+    },
+    {
+        name: "Task Tracker",
+        category: "development",
+        type: "Personal Project",
+        description: "A task tracking app designed to mimic the functionality of a popular project managment app like Trello.",
+        link: "https://mello-melanie-locke.herokuapp.com/boards",
+    },
+    {
+        name: "Digital To-Do List",
+        category: "development",
+        type: "Personal Project",
+        description: "A digital to-do list where tasks can be added and crossed off.",
+        link: "https://todo-melanie-locke.herokuapp.com/",
+    },
 ];
