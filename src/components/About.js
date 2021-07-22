@@ -8,7 +8,7 @@ export default function About() {
     return (
         <Container fluid className="Container" id="about-container">
             <section id="about">
-                <div id="about-content">
+                <div className="Section-content" id="about-content">
                     <Row className="justify-content-md-center">
                         <Col md="5">
                             <div>
@@ -23,7 +23,7 @@ export default function About() {
                             <div id="about-words">
                                 <div>
                                     <h2>
-                                        She's a writer, editor, and creative thinker. 
+                                        A writer, editor, and creative thinker. 
                                     </h2>
                                 </div>
                                 <div style={{ margin: 20 }}>

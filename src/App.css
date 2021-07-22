@@ -52,12 +52,21 @@ main {
   display: inline-block;
 }
 
+.Navbar {
+  font-size: 1.2rem;
+  background-color: #FFFCF8;
+}
+
 .Container {
   display: flex;
   justify-content: center;
-  padding: 14% 3%;
+  padding: 16% 3%;
   box-sizing: border-box;
   text-align: center;
+}
+
+.Section-content {
+  padding-top: 6%;
 }
 
 .Image {
@@ -97,7 +106,6 @@ main {
   padding: 15px;
   margin: 10px;
   background-color: #FFFCF8;
-  width: 45%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 

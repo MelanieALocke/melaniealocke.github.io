@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <Container fluid className="Container">
             <section id="projects">
-                <div id="projects-content">
+                <div className="Section-content" id="projects-content">
                     <Row className="justify-content-mid-center">              
                         <div>
                             <div>
@@ -16,7 +16,8 @@ export default function Projects() {
                             </div>
                         </div>
                     </Row>
-                    <Row className="justify-content-center" id="projects-cards">
+                    <Row id="projects-cards">
+                        <div id="all" className="Cards">
                             {projects.map((project) => (
                                 <div className="Card">
                                     <div className="Card-content">
@@ -27,6 +28,7 @@ export default function Projects() {
                                     </div>
                                 </div>
                             ))}
+                        </div>
                     </Row>
                 </div>
             </section>
